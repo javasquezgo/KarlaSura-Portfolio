@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(180deg, #c1e9fe, rgba(255, 255, 255, 0.0001) 58.49%), radial-gradient(100% 100% at 25.26% 21.66%, #E4CBF0 0%, rgba(255, 255, 255, 0.0001) 100%);
+  background-image: linear-gradient(180deg, #c3e9fe 0%, #eddbf5 61%, #fff 100%);
   background-repeat: no-repeat; }
 
 a {
@@ -109,6 +109,9 @@ header {
   height: auto;
   border-radius: 50%; }
 
+.work {
+  padding-bottom: 90px; }
+
 .work__paragraph h2 {
   font-weight: 300;
   font-size: 8rem;
@@ -144,5 +147,101 @@ header {
 .work__image img {
   width: 100%;
   height: auto; }
+
+.portfolio {
+  margin-top: 80px;
+  background-color: #fff; }
+
+.portfolio__h2 {
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 14rem;
+  color: #27292D; }
+
+.portfolio__image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px; }
+
+.portfolio__image img {
+  width: 100%;
+  height: auto; }
+
+.contact {
+  padding: 50px 0;
+  background: #000; }
+
+.contact__h2 {
+  font-weight: 300;
+  font-size: 3.6rem;
+  line-height: 5.6rem;
+  color: #27292D; }
+
+.contact__h2 span {
+  font-weight: 700; }
+
+.contact_p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 2px;
+  color: #7D92EE;
+  margin-top: 1rem;
+  margin-bottom: 7rem; }
+
+.contact form textarea {
+  width: 90%;
+  max-width: 748px;
+  background: rgba(248, 248, 248, 0.72);
+  border: none;
+  border-radius: 16px;
+  padding-top: 8px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  color: #71747A;
+  font-weight: 300;
+  font-size: 1.6rem; }
+  .contact form textarea::placeholder {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #71747A; }
+
+.contact__submit input {
+  background: rgba(248, 248, 248, 0.72);
+  border: 0;
+  border-radius: 10px;
+  color: #71747A;
+  padding: 17px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif; }
+
+.contact__submit input:focus {
+  outline: none; }
+
+.contact__submit input::placeholder {
+  color: #71747A;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem; }
+
+.contact__submit button {
+  background: #D47DEE;
+  border: 0;
+  border-radius: 16px;
+  color: white;
+  padding: 19px 40px;
+  position: absolute;
+  left: 90%;
+  top: 0;
+  font-family: 'Poppins', sans-serif; }
+
+.contact__submit {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  max-width: 748px; }
 
 /*# sourceMappingURL=style.css.map */
