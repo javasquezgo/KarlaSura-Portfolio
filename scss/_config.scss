@@ -31,4 +31,13 @@ ul{
     margin: 0 auto;
 }
 
-$text-color: #71747A
+$text-color: #71747A;
+
+%iconSpan{
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: $text-color;
+    display: flex;
+    align-items: center;
+}
