@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(180deg, #c3e9fe 0%, #eddbf5 61%, #fff 100%);
+  background: radial-gradient(circle, white 15%, #e4cbf0 40%, #c1e9fe 100%);
   background-repeat: no-repeat; }
 
 a {
@@ -169,7 +169,7 @@ header {
 
 .contact {
   padding: 50px 0;
-  background: #000; }
+  background-color: #fff; }
 
 .contact__h2 {
   font-weight: 300;
@@ -200,8 +200,10 @@ header {
   margin-bottom: 16px;
   color: #71747A;
   font-weight: 300;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif; }
   .contact form textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 2.4rem;

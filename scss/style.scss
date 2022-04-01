@@ -175,7 +175,7 @@ header{
 
 .contact{
     padding: 50px 0;
-    background: #000;
+    background-color: #fff;
 }
 
 .contact__h2{
@@ -211,9 +211,10 @@ header{
     color: #71747A;
     font-weight: 300;
     font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
 
     &::placeholder{
-        
+        font-family: 'Poppins', sans-serif;
         font-weight: 300;
         font-size: 1.6rem;
         line-height: 2.4rem;
