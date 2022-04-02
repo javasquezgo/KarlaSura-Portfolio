@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: radial-gradient(circle, white 15%, #e4cbf0 40%, #c1e9fe 100%);
+  background: radial-gradient(circle, white 35%, #e4cbf0 65%, #c1e9fe 100%);
   background-repeat: no-repeat; }
 
 a {
@@ -62,7 +62,7 @@ header {
 
 .header__item a {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   line-height: 2.7rem;
   color: #71747A; }
 
@@ -152,6 +152,9 @@ header {
   margin-top: 80px;
   background-color: #fff; }
 
+.portfolio .container:last-child {
+  margin-bottom: 0; }
+
 .portfolio__h2 {
   font-weight: 300;
   font-size: 6rem;
@@ -169,7 +172,8 @@ header {
 
 .contact {
   padding: 50px 0;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
 
 .contact__h2 {
   font-weight: 300;
@@ -188,6 +192,9 @@ header {
   color: #7D92EE;
   margin-top: 1rem;
   margin-bottom: 7rem; }
+
+.contact form {
+  background-color: #000; }
 
 .contact form textarea {
   width: 90%;
@@ -208,6 +215,8 @@ header {
     font-size: 1.6rem;
     line-height: 2.4rem;
     color: #71747A; }
+  .contact form textarea:focus {
+    outline: none; }
 
 .contact__submit input {
   background: rgba(248, 248, 248, 0.72);
@@ -245,5 +254,37 @@ header {
   display: inline-block;
   width: 60%;
   max-width: 748px; }
+
+footer {
+  background-color: #fff; }
+
+footer h4 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 30px 0 20px 0; }
+
+@media (min-width: 640px) and (max-width: 769px) {
+  body {
+    background: radial-gradient(circle, white 70%, #e4cbf0 85%, #c1e9fe 100%); }
+
+  .about .container {
+    display: flex; }
+
+  .about__paragraph,
+  .about__image {
+    width: 50%; }
+
+  .about__image img {
+    width: 100%;
+    display: block;
+    margin: 0 0 0 auto; }
+
+  .work .container {
+    display: flex; }
+
+  .work__paragraph,
+  .work__image {
+    width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
