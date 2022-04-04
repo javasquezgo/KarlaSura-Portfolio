@@ -1,0 +1,21 @@
+@media (min-width: 1242px) {
+  body {
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(228, 203, 240, 1) 70%,
+      rgba(193, 233, 254, 1) 100%
+    );
+  }
+
+  .about__image img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+  }
+
+  .contact .container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}

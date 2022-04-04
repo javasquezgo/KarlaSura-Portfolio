@@ -1,44 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-    
-body{
-    font-family: 'Poppins', sans-serif;
-    background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(228,203,240,1) 65%, rgba(193,233,254,1) 100%);
-    background-repeat: no-repeat;
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(228, 203, 240, 1) 65%,
+    rgba(193, 233, 254, 1) 100%
+  );
+  background-repeat: no-repeat;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.container{
-    width: 90%;
-    min-width: 300px;
-    max-width: 1440px;
-    margin: 0 auto;
+.container {
+  width: 90%;
+  min-width: 300px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-$text-color: #71747A;
+section {
+  padding: 70px 0;
+}
 
-%iconSpan{
-    font-weight: 300;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    color: $text-color;
-    display: flex;
-    align-items: center;
+$text-color: #71747a;
+
+%iconSpan {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: $text-color;
+  display: flex;
+  align-items: center;
 }
